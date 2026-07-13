@@ -1,7 +1,11 @@
 # React + TypeScript + Vite
 
 # What is BehindTheMask?
-BehindTheMask is a project that aims to combine profile sites with the quirks of quiz and personality sites like 16Personalities to help people show off who is "behind the mask" more easily.
+BehindTheMask is a full-stack application that aims to combine profile sites with the quirks of quiz and personality sites like 16Personalities to help people show off who is "behind the mask" more easily.
+
+
+## Current Status
+The project is in early development and as of now we are focusing on frontend but I fully intend to add backend integration after the full profile frontend completion. 
 
 # Goals
 
