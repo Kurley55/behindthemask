@@ -1,32 +1,20 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# What is BehindTheMask?
+BehindTheMask is a full-stack application that aims to combine profile sites with the quirks of quiz and personality sites like 16Personalities to help people show off who is "behind the mask" more easily.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Current Status
+The project is in early development and as of now we are focusing on frontend but I fully intend to add backend integration after the full profile frontend completion. 
 
-## React Compiler
+# Goals
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The initial goal is to implement the profile section first. With file uploading and basic database capabilities for saving files through the use of SQLite.
 
-## Expanding the Oxlint configuration
+After this I aim to implement the quiz creation feature which will give results that can be displayed on the card component on the profile page.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Implemented Features as of Now
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+#### 13/07/26
+I have created the profile component and I am displaying it on the profile page. As of now the Props are given hardcoded values from the page file,
+it is my intent to add database implementation to replace this but I am focused on the frontend at the moment. My next aim is to create the card display.
