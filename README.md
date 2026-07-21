@@ -18,3 +18,7 @@ After this I aim to implement the quiz creation feature which will give results 
 #### 13/07/26
 I have created the profile component and I am displaying it on the profile page. As of now the Props are given hardcoded values from the page file,
 it is my intent to add database implementation to replace this but I am focused on the frontend at the moment. My next aim is to create the card display.
+
+### 21/07/26
+
+I have created the card component and it is now being displayed on the profile page. Same with the profile the props are hardcoded values for now, cards are sorted by groups and then by types and display the content of said type. Interactivity will be my next planned addition to the site. A placeholder navbar has been added and will be further worked on in the coming commits.
