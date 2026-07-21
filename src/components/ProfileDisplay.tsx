@@ -46,8 +46,8 @@ function ProfileDisplay({ user, onSelectItem }: ProfileElementsProps) {
       </div>
       <h2>About Me</h2>
       <p>{user.aboutme}</p>
-      <h4>{user.age}</h4>
-      <h4>Country: {user.country}</h4>
+      <h5>Age: {user.age}</h5>
+      <h5>Country: {user.country}</h5>
       <h2>Socials</h2>
 
       {user.socials.length === 0 && <p>No socials linked yet.</p>}
@@ -69,7 +69,7 @@ function ProfileDisplay({ user, onSelectItem }: ProfileElementsProps) {
                 onSelectItem(socials);
               }}
             >
-              {user.socials}
+              {socials}
             </li>
           ),
         )}
